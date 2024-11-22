@@ -1,4 +1,8 @@
 # griffin-sensing-pcb
-PCB Design for White Giant Pressure Data Acquisition via 4-20mA Current Loop Sensors
+PCB Design for Griffin Data Acquisition via Current Loop Sensors
 
-Current Design in KiCAD for 12 Sensors.
+Current Design in KiCAD for 2x12 Sensors.
+
+## Next Steps
+- Create a separate Buck Converter board for a clean 5.4V DC supply
+- Rework PCB Layout to only integrate some 5 sensors and test different designs
