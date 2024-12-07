@@ -1,5 +1,5 @@
-# griffin-sensing-pcb
-PCB Design for Griffin Data Acquisition via Current Loop Sensors
+# WG-sensing-pcb
+PCB Design for WGData Acquisition via Current Loop Sensors
 
 Current Design in KiCAD for 2x12 Sensors.
 
