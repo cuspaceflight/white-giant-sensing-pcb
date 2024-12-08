@@ -7334,7 +7334,7 @@
 			(uuid "0d93bc4d-e325-43dd-9128-ae1f33809833")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 1.1 1.25 360)
+			(at 1.1 1.25 0)
 			(layer "F.Fab")
 			(uuid "49247667-64ad-42c5-a93f-7005d80c937b")
 			(effects
@@ -7925,7 +7925,7 @@
 		(descr "Molex Nano-Fit Power Connectors, 105309-xx04, 4 Pins per row (http://www.molex.com/pdm_docs/sd/1053091203_sd.pdf), generated with kicad-footprint-generator")
 		(tags "connector Molex Nano-Fit side entry")
 		(property "Reference" "J27"
-			(at -6.096 3.897 360)
+			(at -6.096 3.897 0)
 			(layer "F.SilkS")
 			(uuid "6064a9d2-8142-4694-a912-e44c168058d3")
 			(effects
@@ -8371,7 +8371,7 @@
 			(uuid "dd0e1f4f-69f2-4323-bc5c-67163a99d000")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 1.1 3.75 360)
+			(at 1.1 3.75 0)
 			(layer "F.Fab")
 			(uuid "9c1cd182-f179-47b5-987d-6c1953e6afd8")
 			(effects
@@ -12031,7 +12031,7 @@
 			(uuid "dc2e728d-9ddb-45ce-a360-8b0c6bf7d0dc")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 1.1 1.25 360)
+			(at 1.1 1.25 0)
 			(layer "F.Fab")
 			(uuid "d1cbd8e5-5acf-4610-ad00-dbeb2e7638cc")
 			(effects
@@ -14585,7 +14585,7 @@
 			(uuid "7874ca8b-ca9a-4656-abbf-6c4016f805c4")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 1.1 1.25 360)
+			(at 1.1 1.25 0)
 			(layer "F.Fab")
 			(uuid "a8a78101-674b-4768-8749-faed142d336b")
 			(effects
@@ -51469,7 +51469,7 @@
 		(descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
 		(property "Reference" "C111"
-			(at 0 1.43 360)
+			(at 0 1.43 0)
 			(layer "B.SilkS")
 			(uuid "11934c90-936a-46d4-8390-1e02107aab6f")
 			(effects
@@ -51481,7 +51481,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 0 -1.43 360)
+			(at 0 -1.43 0)
 			(layer "B.Fab")
 			(uuid "bce7758b-9cae-4a9c-8990-ad76173dc01c")
 			(effects
@@ -51654,7 +51654,7 @@
 			(uuid "9d1ccee2-8ddf-49e0-990d-693e84b91d1b")
 		)
 		(fp_text user "${REFERENCE}"
-			(at -0.5 0 360)
+			(at -0.5 0 0)
 			(layer "B.Fab")
 			(uuid "f0a6082d-d843-4da1-af3d-7e4bb6efa657")
 			(effects
@@ -51918,7 +51918,7 @@
 		(descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R116"
-			(at -3.683 0 360)
+			(at -3.683 0 0)
 			(layer "B.SilkS")
 			(uuid "30674dda-31c0-4296-a9e3-502ac9cd73c3")
 			(effects
@@ -51930,7 +51930,7 @@
 			)
 		)
 		(property "Value" "120"
-			(at 0 -1.43 360)
+			(at 0 -1.43 0)
 			(layer "B.Fab")
 			(uuid "c110e4ec-1fd7-428c-8e4c-c334c2001d52")
 			(effects
@@ -52089,7 +52089,7 @@
 			(uuid "1ad90813-ffc1-44f6-b90a-37ce8bc08640")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(uuid "872f749c-a709-4831-b695-4be470f1df6f")
 			(effects
@@ -55797,7 +55797,7 @@
 			(type solid)
 		)
 		(fill solid)
-		(layer "Dwgs.User")
+		(layer "F.SilkS")
 		(uuid "0e9d092e-22a1-433d-a2c6-a079545ea846")
 	)
 	(gr_poly
@@ -55815,7 +55815,7 @@
 			(type solid)
 		)
 		(fill solid)
-		(layer "Dwgs.User")
+		(layer "F.SilkS")
 		(uuid "15b76b74-1f82-485f-a7d7-9c1b0f1f99de")
 	)
 	(gr_poly
@@ -55863,7 +55863,7 @@
 			(type solid)
 		)
 		(fill solid)
-		(layer "Dwgs.User")
+		(layer "F.SilkS")
 		(uuid "18e52940-3d75-4f54-90b1-d40613ffa81f")
 	)
 	(gr_poly
@@ -55875,7 +55875,7 @@
 			(type solid)
 		)
 		(fill solid)
-		(layer "Dwgs.User")
+		(layer "F.SilkS")
 		(uuid "1cb38eae-9287-4227-a76b-bd134da3cd4e")
 	)
 	(gr_poly
@@ -55912,7 +55912,7 @@
 			(type solid)
 		)
 		(fill solid)
-		(layer "Dwgs.User")
+		(layer "F.SilkS")
 		(uuid "263ddbac-0dc6-4a73-9187-9161d40d102d")
 	)
 	(gr_poly
@@ -55925,7 +55925,7 @@
 			(type solid)
 		)
 		(fill solid)
-		(layer "Dwgs.User")
+		(layer "F.SilkS")
 		(uuid "2734885a-1e7d-4158-88f2-3b3ffa09c147")
 	)
 	(gr_poly
@@ -55937,7 +55937,7 @@
 			(type solid)
 		)
 		(fill solid)
-		(layer "Dwgs.User")
+		(layer "F.SilkS")
 		(uuid "313a2bc6-1482-4594-afc6-94f5c7cf7b1f")
 	)
 	(gr_poly
@@ -55997,7 +55997,7 @@
 			(type solid)
 		)
 		(fill solid)
-		(layer "Dwgs.User")
+		(layer "F.SilkS")
 		(uuid "346e04eb-0523-4492-8644-8391e769bd77")
 	)
 	(gr_poly
@@ -56072,7 +56072,7 @@
 			(type solid)
 		)
 		(fill solid)
-		(layer "Dwgs.User")
+		(layer "F.SilkS")
 		(uuid "36977054-4675-4f92-861c-5cc02952f107")
 	)
 	(gr_poly
@@ -56095,7 +56095,7 @@
 			(type solid)
 		)
 		(fill solid)
-		(layer "Dwgs.User")
+		(layer "F.SilkS")
 		(uuid "37a8218f-7dab-49bd-967e-c1ab455ae4c1")
 	)
 	(gr_poly
@@ -56132,7 +56132,7 @@
 			(type solid)
 		)
 		(fill solid)
-		(layer "Dwgs.User")
+		(layer "F.SilkS")
 		(uuid "46ba7513-3429-431c-8fb6-00882f4e0560")
 	)
 	(gr_poly
@@ -56145,7 +56145,7 @@
 			(type solid)
 		)
 		(fill solid)
-		(layer "Dwgs.User")
+		(layer "F.SilkS")
 		(uuid "583241f0-614e-42de-9f03-3cc754bb1c54")
 	)
 	(gr_poly
@@ -56187,7 +56187,7 @@
 			(type solid)
 		)
 		(fill solid)
-		(layer "Dwgs.User")
+		(layer "F.SilkS")
 		(uuid "5ca8c088-56a7-40ab-b21e-f8275b60c930")
 	)
 	(gr_poly
@@ -56233,7 +56233,7 @@
 			(type solid)
 		)
 		(fill solid)
-		(layer "Dwgs.User")
+		(layer "F.SilkS")
 		(uuid "7360e5c9-e29c-456f-b11f-78d3c9e63aba")
 	)
 	(gr_poly
@@ -56246,7 +56246,7 @@
 			(type solid)
 		)
 		(fill solid)
-		(layer "Dwgs.User")
+		(layer "F.SilkS")
 		(uuid "7a99772b-9e9e-4fe4-a825-40d40a91a192")
 	)
 	(gr_poly
@@ -56326,7 +56326,7 @@
 			(type solid)
 		)
 		(fill solid)
-		(layer "Dwgs.User")
+		(layer "F.SilkS")
 		(uuid "7dad1f71-2367-4931-a46f-4653c33e9e01")
 	)
 	(gr_poly
@@ -56360,7 +56360,7 @@
 			(type solid)
 		)
 		(fill solid)
-		(layer "Dwgs.User")
+		(layer "F.SilkS")
 		(uuid "7e2bd486-9a7b-4d4c-850e-305a4dff527a")
 	)
 	(gr_poly
@@ -56397,7 +56397,7 @@
 			(type solid)
 		)
 		(fill solid)
-		(layer "Dwgs.User")
+		(layer "F.SilkS")
 		(uuid "80af980b-bc36-4637-9347-f47081b2194a")
 	)
 	(gr_poly
@@ -56432,21 +56432,8 @@
 			(type solid)
 		)
 		(fill solid)
-		(layer "Dwgs.User")
+		(layer "F.SilkS")
 		(uuid "87e1d756-523c-43af-8751-35c9dfa017bc")
-	)
-	(gr_poly
-		(pts
-			(xy 136.740405 167.486852) (xy 136.738462 168.182334) (xy 136.736767 167.849662) (xy 136.735113 164.491769)
-			(xy 136.740405 161.480811)
-		)
-		(stroke
-			(width -0.000001)
-			(type solid)
-		)
-		(fill solid)
-		(layer "Dwgs.User")
-		(uuid "8a6404a7-4ea3-4d9c-9e13-6b1b97de4f9a")
 	)
 	(gr_poly
 		(pts
@@ -56461,7 +56448,7 @@
 			(type solid)
 		)
 		(fill solid)
-		(layer "Dwgs.User")
+		(layer "F.SilkS")
 		(uuid "8e31f148-592e-4979-a032-cd2a6049722b")
 	)
 	(gr_poly
@@ -56475,7 +56462,7 @@
 			(type solid)
 		)
 		(fill solid)
-		(layer "Dwgs.User")
+		(layer "F.SilkS")
 		(uuid "8e7936e3-96f0-4d4e-bf15-7455ad3e0da9")
 	)
 	(gr_poly
@@ -56581,7 +56568,7 @@
 			(type solid)
 		)
 		(fill solid)
-		(layer "Dwgs.User")
+		(layer "F.SilkS")
 		(uuid "a005d4b6-a812-4f87-8ae3-8c8d1bd65da5")
 	)
 	(gr_poly
@@ -56667,7 +56654,7 @@
 			(type solid)
 		)
 		(fill solid)
-		(layer "Dwgs.User")
+		(layer "F.SilkS")
 		(uuid "a0a77a5a-5d26-406f-9b9e-4776471c53e0")
 	)
 	(gr_poly
@@ -56708,7 +56695,7 @@
 			(type solid)
 		)
 		(fill solid)
-		(layer "Dwgs.User")
+		(layer "F.SilkS")
 		(uuid "a4bb8c66-53a2-4dde-a785-c6258171ca5c")
 	)
 	(gr_poly
@@ -56945,7 +56932,7 @@
 			(type solid)
 		)
 		(fill solid)
-		(layer "Dwgs.User")
+		(layer "F.SilkS")
 		(uuid "ae771fd9-d24f-4b77-b80c-fb9e9551abe1")
 	)
 	(gr_poly
@@ -57023,7 +57010,7 @@
 			(type solid)
 		)
 		(fill solid)
-		(layer "Dwgs.User")
+		(layer "F.SilkS")
 		(uuid "b36bbc38-cbc6-4a0d-9f62-63679a54e75d")
 	)
 	(gr_poly
@@ -57040,7 +57027,7 @@
 			(type solid)
 		)
 		(fill solid)
-		(layer "Dwgs.User")
+		(layer "F.SilkS")
 		(uuid "c6540c07-9c20-40bf-bbe4-4e43013e19be")
 	)
 	(gr_poly
@@ -57055,7 +57042,7 @@
 			(type solid)
 		)
 		(fill solid)
-		(layer "Dwgs.User")
+		(layer "F.SilkS")
 		(uuid "c8652611-918f-43b4-9a81-90ac67ab0bcd")
 	)
 	(gr_poly
@@ -57091,7 +57078,7 @@
 			(type solid)
 		)
 		(fill solid)
-		(layer "Dwgs.User")
+		(layer "F.SilkS")
 		(uuid "e275b5cf-8b6b-494c-a5ac-1340b8556d12")
 	)
 	(gr_poly
@@ -57106,7 +57093,7 @@
 			(type solid)
 		)
 		(fill solid)
-		(layer "Dwgs.User")
+		(layer "F.SilkS")
 		(uuid "fe29e1df-e424-4b11-b851-da2a43722590")
 	)
 	(gr_poly
@@ -57168,7 +57155,7 @@
 			(type solid)
 		)
 		(fill solid)
-		(layer "Dwgs.User")
+		(layer "F.SilkS")
 		(uuid "feb1bf24-49b4-49ff-bed9-74f4bd935cc3")
 	)
 	(gr_poly
@@ -57180,8 +57167,21 @@
 			(type solid)
 		)
 		(fill solid)
-		(layer "Dwgs.User")
+		(layer "F.SilkS")
 		(uuid "ffd78803-7741-42eb-a097-7473a9738dfb")
+	)
+	(gr_poly
+		(pts
+			(xy 136.740405 167.486852) (xy 136.738462 168.182334) (xy 136.736767 167.849662) (xy 136.735113 164.491769)
+			(xy 136.740405 161.480811)
+		)
+		(stroke
+			(width -0.000001)
+			(type solid)
+		)
+		(fill solid)
+		(layer "Dwgs.User")
+		(uuid "8a6404a7-4ea3-4d9c-9e13-6b1b97de4f9a")
 	)
 	(gr_rect
 		(start 90 60)
@@ -70597,27 +70597,6 @@
 				(xy 100.711 109.687537) (xy 100.731002 109.619416) (xy 100.784658 109.572923) (xy 100.791769 109.569935)
 				(xy 100.795001 109.568692) (xy 102.314896 108.984116) (xy 102.385654 108.978332)
 			)
-		)
-	)
-	(group ""
-		(uuid "660b23a0-2e34-4c04-8896-739ee0a3f413")
-		(members "0e9d092e-22a1-433d-a2c6-a079545ea846" "15b76b74-1f82-485f-a7d7-9c1b0f1f99de"
-			"18e52940-3d75-4f54-90b1-d40613ffa81f" "1cb38eae-9287-4227-a76b-bd134da3cd4e"
-			"263ddbac-0dc6-4a73-9187-9161d40d102d" "2734885a-1e7d-4158-88f2-3b3ffa09c147"
-			"313a2bc6-1482-4594-afc6-94f5c7cf7b1f" "346e04eb-0523-4492-8644-8391e769bd77"
-			"36977054-4675-4f92-861c-5cc02952f107" "37a8218f-7dab-49bd-967e-c1ab455ae4c1"
-			"46ba7513-3429-431c-8fb6-00882f4e0560" "583241f0-614e-42de-9f03-3cc754bb1c54"
-			"5ca8c088-56a7-40ab-b21e-f8275b60c930" "7360e5c9-e29c-456f-b11f-78d3c9e63aba"
-			"7a99772b-9e9e-4fe4-a825-40d40a91a192" "7dad1f71-2367-4931-a46f-4653c33e9e01"
-			"7e2bd486-9a7b-4d4c-850e-305a4dff527a" "80af980b-bc36-4637-9347-f47081b2194a"
-			"87e1d756-523c-43af-8751-35c9dfa017bc" "8a6404a7-4ea3-4d9c-9e13-6b1b97de4f9a"
-			"8e31f148-592e-4979-a032-cd2a6049722b" "8e7936e3-96f0-4d4e-bf15-7455ad3e0da9"
-			"a005d4b6-a812-4f87-8ae3-8c8d1bd65da5" "a0a77a5a-5d26-406f-9b9e-4776471c53e0"
-			"a4bb8c66-53a2-4dde-a785-c6258171ca5c" "ae771fd9-d24f-4b77-b80c-fb9e9551abe1"
-			"b36bbc38-cbc6-4a0d-9f62-63679a54e75d" "c6540c07-9c20-40bf-bbe4-4e43013e19be"
-			"c8652611-918f-43b4-9a81-90ac67ab0bcd" "e275b5cf-8b6b-494c-a5ac-1340b8556d12"
-			"fe29e1df-e424-4b11-b851-da2a43722590" "feb1bf24-49b4-49ff-bed9-74f4bd935cc3"
-			"ffd78803-7741-42eb-a097-7473a9738dfb"
 		)
 	)
 )
