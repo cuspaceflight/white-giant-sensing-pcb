@@ -791,6 +791,214 @@
 				)
 			)
 		)
+		(symbol "Diode:BAV99"
+			(pin_names hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "BAV99"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "BAV99 High-speed switching diodes, SOT-23"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOT?23*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "BAV99_0_1"
+				(polyline
+					(pts
+						(xy -5.08 0) (xy 5.08 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "BAV99_1_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.27) (xy -1.27 1.27) (xy -1.27 1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.81 1.27) (xy 3.81 -1.27) (xy 3.81 -1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -3.81 1.27) (xy -1.27 0) (xy -3.81 -1.27) (xy -3.81 1.27) (xy -3.81 1.27) (xy -3.81 1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 3.81 0) (xy 1.27 -1.27) (xy 1.27 1.27) (xy 1.27 1.27) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.2032)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 0 0)
+					(radius 0.254)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(pin passive line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "GND_1"
 			(power)
 			(pin_names
@@ -1147,6 +1355,12 @@
 		(uuid "3c957f60-b327-454c-a51b-3ff57ce1f266")
 	)
 	(junction
+		(at 93.98 102.87)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "68fb20bb-07ee-42bd-9ef3-e676a8febfa7")
+	)
+	(junction
 		(at 119.38 110.49)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1198,6 +1412,16 @@
 	)
 	(wire
 		(pts
+			(xy 93.98 102.87) (xy 105.41 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "090f1650-868b-407e-9370-83033d7becd4")
+	)
+	(wire
+		(pts
 			(xy 77.47 110.49) (xy 88.9 110.49)
 		)
 		(stroke
@@ -1205,6 +1429,16 @@
 			(type default)
 		)
 		(uuid "0b029124-ece9-4548-bc23-e6bd1e10e882")
+	)
+	(wire
+		(pts
+			(xy 102.87 90.17) (xy 101.6 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14e042fa-76f0-4483-82c3-a15368c35594")
 	)
 	(wire
 		(pts
@@ -1218,7 +1452,7 @@
 	)
 	(wire
 		(pts
-			(xy 77.47 102.87) (xy 105.41 102.87)
+			(xy 77.47 102.87) (xy 93.98 102.87)
 		)
 		(stroke
 			(width 0)
@@ -1338,6 +1572,16 @@
 	)
 	(wire
 		(pts
+			(xy 102.87 86.36) (xy 102.87 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "70fcf808-4018-448a-840d-eddd0def0d3b")
+	)
+	(wire
+		(pts
 			(xy 144.78 50.8) (xy 158.75 50.8)
 		)
 		(stroke
@@ -1378,6 +1622,26 @@
 	)
 	(wire
 		(pts
+			(xy 85.09 90.17) (xy 85.09 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8519a14b-f209-449e-a4f4-436cafcadc25")
+	)
+	(wire
+		(pts
+			(xy 93.98 95.25) (xy 93.98 102.87)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95ea2334-13a5-4ca3-947e-4b927025082b")
+	)
+	(wire
+		(pts
 			(xy 107.95 85.09) (xy 107.95 87.63)
 		)
 		(stroke
@@ -1415,6 +1679,16 @@
 			(type default)
 		)
 		(uuid "9fe6bd4d-5dc8-4eb9-929b-335f0285afc2")
+	)
+	(wire
+		(pts
+			(xy 86.36 90.17) (xy 85.09 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5fcadf6-5e91-47ac-a929-30616c674068")
 	)
 	(wire
 		(pts
@@ -1662,7 +1936,7 @@
 	)
 	(hierarchical_label "5V Ref"
 		(shape input)
-		(at 92.71 95.25 0)
+		(at 102.87 86.36 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3735,6 +4009,232 @@
 				)
 				(path "/67614b2b-61f2-4e31-8c39-3cb652c08df1/8d69bac9-8467-4e6c-b6ab-27067f5f9907/d8daeb63-cfe9-455a-b433-b5ee2034012b"
 					(reference "R140")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "GND_1")
+		(lib_id "power:GND")
+		(at 85.09 93.98 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c1351fc4-613c-47da-881e-85d01837b002")
+		(property "Reference" "#PWR036"
+			(at 85.09 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 85.09 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 85.09 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 85.09 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 85.09 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7427bbcc-46f0-4bef-b861-e8f19e74773c")
+		)
+		(instances
+			(project "daq_griffin"
+				(path "/67614b2b-61f2-4e31-8c39-3cb652c08df1/8d69bac9-8467-4e6c-b6ab-27067f5f9907/0badea59-72fa-4422-811d-0478c45465a1"
+					(reference "#PWR036")
+					(unit 1)
+				)
+				(path "/67614b2b-61f2-4e31-8c39-3cb652c08df1/8d69bac9-8467-4e6c-b6ab-27067f5f9907/20e48b59-4b1a-4893-b5e4-e7c65616cb0e"
+					(reference "#PWR039")
+					(unit 1)
+				)
+				(path "/67614b2b-61f2-4e31-8c39-3cb652c08df1/8d69bac9-8467-4e6c-b6ab-27067f5f9907/3519f27e-f2d6-44b0-8a9e-863d34a1e2be"
+					(reference "#PWR037")
+					(unit 1)
+				)
+				(path "/67614b2b-61f2-4e31-8c39-3cb652c08df1/8d69bac9-8467-4e6c-b6ab-27067f5f9907/35a753fb-ff4e-4499-9041-a2bcf359eff0"
+					(reference "#PWR041")
+					(unit 1)
+				)
+				(path "/67614b2b-61f2-4e31-8c39-3cb652c08df1/8d69bac9-8467-4e6c-b6ab-27067f5f9907/37d9e312-dd1c-4542-a5a6-f154f69cb2ca"
+					(reference "#PWR047")
+					(unit 1)
+				)
+				(path "/67614b2b-61f2-4e31-8c39-3cb652c08df1/8d69bac9-8467-4e6c-b6ab-27067f5f9907/5dbb566a-6d7a-40a8-bbf3-7f1bd0fdbbdc"
+					(reference "#PWR046")
+					(unit 1)
+				)
+				(path "/67614b2b-61f2-4e31-8c39-3cb652c08df1/8d69bac9-8467-4e6c-b6ab-27067f5f9907/793ea022-58ed-45a6-89a2-e493d9768bfc"
+					(reference "#PWR042")
+					(unit 1)
+				)
+				(path "/67614b2b-61f2-4e31-8c39-3cb652c08df1/8d69bac9-8467-4e6c-b6ab-27067f5f9907/95fab8e0-2465-4aac-934e-e0c2ec292b32"
+					(reference "#PWR038")
+					(unit 1)
+				)
+				(path "/67614b2b-61f2-4e31-8c39-3cb652c08df1/8d69bac9-8467-4e6c-b6ab-27067f5f9907/9f66ed22-4711-4117-b54b-a6aee94eefa5"
+					(reference "#PWR040")
+					(unit 1)
+				)
+				(path "/67614b2b-61f2-4e31-8c39-3cb652c08df1/8d69bac9-8467-4e6c-b6ab-27067f5f9907/ac5c0299-e963-4f8b-9fd3-15f5104ee20c"
+					(reference "#PWR044")
+					(unit 1)
+				)
+				(path "/67614b2b-61f2-4e31-8c39-3cb652c08df1/8d69bac9-8467-4e6c-b6ab-27067f5f9907/bcc1fa97-f678-4d52-a0af-3895d6414258"
+					(reference "#PWR043")
+					(unit 1)
+				)
+				(path "/67614b2b-61f2-4e31-8c39-3cb652c08df1/8d69bac9-8467-4e6c-b6ab-27067f5f9907/d8daeb63-cfe9-455a-b433-b5ee2034012b"
+					(reference "#PWR045")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Diode:BAV99")
+		(at 93.98 90.17 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f02ca574-6747-4ca0-8b61-462c3543b23f")
+		(property "Reference" "D3"
+			(at 93.98 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BAV99"
+			(at 93.98 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-323_SC-70"
+			(at 93.98 102.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/BAV99_SER.pdf"
+			(at 93.98 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "BAV99 High-speed switching diodes, SOT-23"
+			(at 93.98 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d1229d45-3207-43ee-a863-15cdbddc7f26")
+		)
+		(pin "1"
+			(uuid "7c403949-41af-4ccd-aa4f-7528fef10546")
+		)
+		(pin "3"
+			(uuid "a3d7523d-4575-41e1-8ef8-52d26c2c66bb")
+		)
+		(instances
+			(project ""
+				(path "/67614b2b-61f2-4e31-8c39-3cb652c08df1/8d69bac9-8467-4e6c-b6ab-27067f5f9907/0badea59-72fa-4422-811d-0478c45465a1"
+					(reference "D1")
+					(unit 1)
+				)
+				(path "/67614b2b-61f2-4e31-8c39-3cb652c08df1/8d69bac9-8467-4e6c-b6ab-27067f5f9907/20e48b59-4b1a-4893-b5e4-e7c65616cb0e"
+					(reference "D4")
+					(unit 1)
+				)
+				(path "/67614b2b-61f2-4e31-8c39-3cb652c08df1/8d69bac9-8467-4e6c-b6ab-27067f5f9907/3519f27e-f2d6-44b0-8a9e-863d34a1e2be"
+					(reference "D2")
+					(unit 1)
+				)
+				(path "/67614b2b-61f2-4e31-8c39-3cb652c08df1/8d69bac9-8467-4e6c-b6ab-27067f5f9907/35a753fb-ff4e-4499-9041-a2bcf359eff0"
+					(reference "D6")
+					(unit 1)
+				)
+				(path "/67614b2b-61f2-4e31-8c39-3cb652c08df1/8d69bac9-8467-4e6c-b6ab-27067f5f9907/37d9e312-dd1c-4542-a5a6-f154f69cb2ca"
+					(reference "D12")
+					(unit 1)
+				)
+				(path "/67614b2b-61f2-4e31-8c39-3cb652c08df1/8d69bac9-8467-4e6c-b6ab-27067f5f9907/5dbb566a-6d7a-40a8-bbf3-7f1bd0fdbbdc"
+					(reference "D11")
+					(unit 1)
+				)
+				(path "/67614b2b-61f2-4e31-8c39-3cb652c08df1/8d69bac9-8467-4e6c-b6ab-27067f5f9907/793ea022-58ed-45a6-89a2-e493d9768bfc"
+					(reference "D7")
+					(unit 1)
+				)
+				(path "/67614b2b-61f2-4e31-8c39-3cb652c08df1/8d69bac9-8467-4e6c-b6ab-27067f5f9907/95fab8e0-2465-4aac-934e-e0c2ec292b32"
+					(reference "D3")
+					(unit 1)
+				)
+				(path "/67614b2b-61f2-4e31-8c39-3cb652c08df1/8d69bac9-8467-4e6c-b6ab-27067f5f9907/9f66ed22-4711-4117-b54b-a6aee94eefa5"
+					(reference "D5")
+					(unit 1)
+				)
+				(path "/67614b2b-61f2-4e31-8c39-3cb652c08df1/8d69bac9-8467-4e6c-b6ab-27067f5f9907/ac5c0299-e963-4f8b-9fd3-15f5104ee20c"
+					(reference "D9")
+					(unit 1)
+				)
+				(path "/67614b2b-61f2-4e31-8c39-3cb652c08df1/8d69bac9-8467-4e6c-b6ab-27067f5f9907/bcc1fa97-f678-4d52-a0af-3895d6414258"
+					(reference "D8")
+					(unit 1)
+				)
+				(path "/67614b2b-61f2-4e31-8c39-3cb652c08df1/8d69bac9-8467-4e6c-b6ab-27067f5f9907/d8daeb63-cfe9-455a-b433-b5ee2034012b"
+					(reference "D10")
 					(unit 1)
 				)
 			)
