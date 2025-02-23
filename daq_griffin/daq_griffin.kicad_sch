@@ -8061,10 +8061,9 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "1809cfc6-637d-4276-b766-8131ac72f289")
 		(property "Reference" "J28"
-			(at 200.66 12.0649 90)
+			(at 203.2 13.716 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8073,7 +8072,7 @@
 			)
 		)
 		(property "Value" "POWER_24V"
-			(at 200.66 14.6049 90)
+			(at 203.2 16.256 90)
 			(effects
 				(font
 					(size 1.27 1.27)
