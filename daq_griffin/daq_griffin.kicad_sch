@@ -4262,6 +4262,98 @@
 		(color 0 0 0 0)
 		(uuid "fe62e8c4-713f-406d-8e89-4c937e60941e")
 	)
+	(no_connect
+		(at 148.59 130.81)
+		(uuid "17bb6ba5-0ee8-433f-87d1-c995ea0ce1bb")
+	)
+	(no_connect
+		(at 148.59 149.86)
+		(uuid "18f060cd-56a6-455a-b754-65df5818575c")
+	)
+	(no_connect
+		(at 120.65 167.64)
+		(uuid "1af92265-125f-4b88-b97d-73d849a57f31")
+	)
+	(no_connect
+		(at 92.71 146.05)
+		(uuid "27bdd93e-7b14-44f7-92b1-7505007df6e3")
+	)
+	(no_connect
+		(at 92.71 160.02)
+		(uuid "31f0e6c7-b416-42f7-aaf5-26aaeff91c1d")
+	)
+	(no_connect
+		(at 148.59 152.4)
+		(uuid "358438a0-36e2-43f8-a794-a44709d14c53")
+	)
+	(no_connect
+		(at 148.59 76.2)
+		(uuid "3ddc357d-3642-4439-b416-2ce60b7f538c")
+	)
+	(no_connect
+		(at 124.46 167.64)
+		(uuid "53884bf3-23de-4362-9f99-d5180e4b49ff")
+	)
+	(no_connect
+		(at 116.84 167.64)
+		(uuid "60906556-2d1d-4b40-954a-db246239621e")
+	)
+	(no_connect
+		(at 92.71 154.94)
+		(uuid "636102dc-f818-4132-96e6-1471bc1562a4")
+	)
+	(no_connect
+		(at 92.71 149.86)
+		(uuid "6883fcb5-a84a-4102-844c-1862549d286d")
+	)
+	(no_connect
+		(at 128.27 167.64)
+		(uuid "68b33777-0d2d-49f7-ab08-7844517fb848")
+	)
+	(no_connect
+		(at 148.59 144.78)
+		(uuid "79bb1af4-a3a4-4e97-b7df-da81ecab5820")
+	)
+	(no_connect
+		(at 148.59 157.48)
+		(uuid "90cedb12-f5e8-4490-9560-c1e094ac8d59")
+	)
+	(no_connect
+		(at 148.59 154.94)
+		(uuid "a6c57a4b-976b-444f-91a9-83af88e6cd88")
+	)
+	(no_connect
+		(at 92.71 157.48)
+		(uuid "adcf2eff-43e4-4acc-adf3-83b10299ec58")
+	)
+	(no_connect
+		(at 148.59 138.43)
+		(uuid "bb82a21b-1488-4841-99cd-a554e32a07dc")
+	)
+	(no_connect
+		(at 148.59 147.32)
+		(uuid "c0c1a843-9f84-4dc0-a9b5-b9f4e8dd7421")
+	)
+	(no_connect
+		(at 113.03 167.64)
+		(uuid "c7e703ab-5962-4089-897f-6a638efb26a5")
+	)
+	(no_connect
+		(at 148.59 128.27)
+		(uuid "d37c26c3-3c2a-4f22-8bb0-f95cebdc2bb1")
+	)
+	(no_connect
+		(at 92.71 143.51)
+		(uuid "d639d99d-da8d-4162-b001-f4bd9b8790a6")
+	)
+	(no_connect
+		(at 92.71 152.4)
+		(uuid "eca934cb-79a3-4a73-a39d-aaed73a5cbaa")
+	)
+	(no_connect
+		(at 92.71 138.43)
+		(uuid "eeed2a0e-15c0-401f-9313-4dc1d118974d")
+	)
 	(wire
 		(pts
 			(xy 163.83 29.21) (xy 168.91 29.21)
