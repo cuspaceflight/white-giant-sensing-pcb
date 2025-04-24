@@ -3805,7 +3805,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "40mA"
+		(property "Value" "30mA"
 			(at 76.2 92.7099 90)
 			(effects
 				(font
@@ -3919,7 +3919,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "25"
+		(property "Value" "22"
 			(at 77.47 82.5499 0)
 			(effects
 				(font

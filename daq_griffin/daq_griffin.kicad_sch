@@ -12495,7 +12495,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Inductor_SMD:L_Bourns_SRN8040TA"
+		(property "Footprint" "Inductor_SMD:L_Bourns_SRN6045TA"
 			(at 151.13 29.21 0)
 			(effects
 				(font
