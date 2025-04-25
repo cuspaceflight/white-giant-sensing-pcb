@@ -1151,7 +1151,7 @@
       "idf": "",
       "netlist": "",
       "plot": "../../GERBERS/",
-      "pos_files": "",
+      "pos_files": "../../",
       "specctra_dsn": "",
       "step": "",
       "svg": "",
@@ -1235,13 +1235,19 @@
           "label": "Description",
           "name": "Description",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LCSC",
+          "name": "LCSC",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "name": "",
       "sort_asc": true,
-      "sort_field": "Reference"
+      "sort_field": "Value"
     },
     "connection_grid_size": 50.0,
     "drawing": {

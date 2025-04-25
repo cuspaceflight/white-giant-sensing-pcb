@@ -7662,6 +7662,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C188257"
+			(at 81.28 31.75 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "748a6b03-ceed-4cf4-8c9f-81bee76b9c14")
 		)
@@ -8612,6 +8621,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C1681"
+			(at 138.43 46.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "29578101-80d0-4e22-80ab-8b4efd035949")
 		)
@@ -8952,6 +8970,15 @@
 			)
 		)
 		(property "MPN" "generic C%f %v %r"
+			(at 168.91 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1590"
 			(at 168.91 36.83 0)
 			(effects
 				(font
@@ -9910,6 +9937,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C1590"
+			(at 73.66 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ad8a00c1-0e87-4cec-9354-1f5334bbe302")
 		)
@@ -9988,6 +10024,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C22865"
+			(at 123.19 46.99 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "53a713c7-6475-4626-90de-d27eb2ee65dd")
 		)
@@ -10057,6 +10102,15 @@
 			)
 		)
 		(property "MPN" "TI TPS54302DDC"
+			(at 110.49 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C129370"
 			(at 110.49 29.21 0)
 			(effects
 				(font
@@ -10354,6 +10408,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C1590"
+			(at 128.27 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "799872d6-bbab-4f8b-bee3-5b86963311ff")
 		)
@@ -10550,6 +10613,15 @@
 			)
 		)
 		(property "Description" "High-Speed CAN Transceiver, 1Mbps, 3.3V supply, low power standby mode, shutdown mode, SOT-23-8/SOIC-8"
+			(at 220.98 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C30111221"
 			(at 220.98 82.55 0)
 			(effects
 				(font
@@ -10934,6 +11006,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C16840"
+			(at 96.52 39.37 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1b616efb-5815-4a25-b6b0-2be76af13b60")
 		)
@@ -11305,6 +11386,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C16780"
+			(at 180.34 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2d628936-a647-4680-8d25-db14060efd08")
 		)
@@ -11432,6 +11522,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 240.03 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C22787"
 			(at 240.03 82.55 0)
 			(effects
 				(font
@@ -12531,6 +12630,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C1330797"
+			(at 151.13 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b6234ec1-6942-4e4c-84e1-3dfd7b479a65")
 		)
@@ -12865,6 +12973,15 @@
 		)
 		(property "Description" ""
 			(at 228.6 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C1592"
+			(at 228.6 66.04 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13229,6 +13346,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC" "C5674"
+			(at 62.23 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7c50ecf8-23c7-40f1-bf9d-0da678108730")
 		)
@@ -13368,6 +13494,15 @@
 			)
 		)
 		(property "MPN" "generic R%f %v %r"
+			(at 138.43 36.83 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C14675"
 			(at 138.43 36.83 90)
 			(effects
 				(font
@@ -14041,6 +14176,15 @@
 			)
 		)
 		(property "MPN" "generic R%f %v %r"
+			(at 153.67 36.83 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC" "C23185"
 			(at 153.67 36.83 90)
 			(effects
 				(font
